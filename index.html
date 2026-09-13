@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YouTube Navbar Clone</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="youtube1.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="navbar">
     <div class="nav-left">
       <i class="fas fa-bars menu-icon"></i>
-      <div class="logo"><span><i class="f5ab fa-youtube"></i></span>YouTube <sup style="font-size:10px;">IN</sup></div>
+      <div class="logo"><img src="images/Youtube_logo.png" width="20" height="20"><span></i></span>YouTube <sup
+          style="font-size:10px;">IN</sup></div>
     </div>
     <div class="search-bar">
       <input type="text" class="search-input" placeholder="Search">
@@ -21,10 +22,15 @@
       <button class="mic-btn"><i class="fas fa-microphone"></i></button>
     </div>
     <div class="nav-right">
-      <button class="create-btn"><i class="fas fa-plus"></i> Create</button>
+      <button class="create-btn">
+        <i class="fas fa-plus"></i> Create
+      </button>
+
       <i class="fas fa-bell"></i>
-      <img src="C:\Users\dgopi\OneDrive\Pictures\Screenshots\Snapchat-461821875.jpg" class="profile">
+
+      <img src="https://i.pravatar.cc/100?img=47" class="profile" alt="Profile">
     </div>
+
   </div>
   <div class="categories">
     <div class="category active">All</div>
@@ -44,31 +50,31 @@
 
   <div class="videos">
     <div class="video-card">
-      <img src="C:\Users\dgopi\Downloads\istockphoto-1394440950-612x612.webp"alt="Video 1">
+      <img src="images/flower.jpg" alt="Video 1">
       <h4>🌸Beautiful garden video|5 Garden Hacks You Must Try🌸</h4>
       <p>Greenary• 2M views • 2 days ago</p>
     </div>
 
     <div class="video-card">
-      <img src="C:\Users\dgopi\Downloads\pexels-photo-1108099.webp" alt="Video 2">
+      <img src="images/dog.jpg" alt="Video 2">
       <h4>My Puppy’s First Day at Home|Cutest Dog Moments You’ll Ever See🐶</h4>
       <p>Pets • 5M views • 1 week ago</p>
     </div>
 
     <div class="video-card">
-      <img src="https://i.ytimg.com/vi/E7wJTI-1dvQ/maxresdefault.jpg" alt="Video 4">
+      <img src="images/music.jpg" alt="Video 4">
       <h4>Best Chill Music Mix 2025🎵|Heart-Touching Melody You Must Hear</h4>
       <p>Live Music • 6.5M views • 5 days ago</p>
     </div>
 
     <div class="video-card">
-      <img src="C:\Users\dgopi\Downloads\maroon-5-1.webp" alt="Video 5">
+      <img src="images/music2.jpg" alt="Video 5">
       <h4>Best Chill Music Mix 2025🎵|Heart-Touching Melody You Must Hear</h4>
       <p>Live Music concert • 15M views • 1month ago</p>
     </div>
 
     <div class="video-card">
-      <img src="C:\Users\dgopi\Downloads\hq720.jpg" alt="Video 6">
+      <img src="images/html-tutorial.jpg" alt="Video 6">
       <h4>HTML basics tutorial for beginners</h4>
       <p>error makes clever • 7M views • 1 year ago</p>
     </div>
@@ -76,7 +82,7 @@
 
   <script>
     const videos = [
-     
+
       {
         thumbnail: "https://i.ytimg.com/vi/fLexgOxsZu0/maxresdefault.jpg",
         title: "My Puppy’s First Day at Home 🐶",
