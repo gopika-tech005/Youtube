@@ -3,6 +3,7 @@ body {
         font-family: Arial, sans-serif;
         background-color: white;
     }
+
     /* Navbar */
     .navbar {
         display: flex;
@@ -14,25 +15,30 @@ body {
         position: sticky;
         top: 0;
     }
+
     .nav-left {
         display: flex;
         align-items: center;
         gap: 10px;
     }
+
     .menu-icon {
         font-size: 20px;
         cursor: pointer;
     }
+
     .logo {
         display: flex;
         align-items: center;
         font-size: 22px;
         font-weight: bold;
     }
+
     .logo span {
         color: red;
         margin-right: 5px;
     }
+
     /* Search bar */
     .search-bar {
         display: flex;
@@ -40,6 +46,7 @@ body {
         max-width: 600px;
         margin: 0 20px;
     }
+
     .search-input {
         flex: 1;
         padding: 8px;
@@ -47,6 +54,7 @@ body {
         border-radius: 25px 0 0 25px;
         outline: none;
     }
+
     .search-btn {
         background-color: #f8f8f8;
         border: 1px solid #ccc;
@@ -55,6 +63,7 @@ body {
         cursor: pointer;
         border-radius: 0 25px 25px 0;
     }
+
     .mic-btn {
         margin-left: 8px;
         background-color: #f8f8f8;
@@ -63,12 +72,14 @@ body {
         padding: 8px;
         cursor: pointer;
     }
+
     /* Right icons */
     .nav-right {
         display: flex;
         align-items: center;
         gap: 15px;
     }
+
     .create-btn {
         background-color: gainsboro;
         padding: 6px 12px;
@@ -78,11 +89,13 @@ body {
         font-weight: bold;
         color: black;
     }
-    .profile{
+
+    .profile {
         width: 30px;
         height: 30px;
         border-radius: 30px;
     }
+
     /* Category tabs */
     .categories {
         display: flex;
@@ -92,6 +105,7 @@ body {
         border-bottom: 1px solid #ddd;
         overflow-x: auto;
     }
+
     .category {
         background-color: #f2f2f2;
         padding: 6px 12px;
@@ -100,28 +114,41 @@ body {
         cursor: pointer;
         white-space: nowrap;
     }
+
     .category.active {
         background-color: black;
         color: white;
     }
+
     .videos {
-        display:grid;
+        display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 16px;
         padding: 16px;
         flex-basis: auto;
     }
+
     .video-card img {
         width: 100%;
         height: 250px;
         border-radius: 10px;
     }
+
     .video-card h4 {
-        margin: 8px  4px;
+        margin: 8px 4px;
         font-size: 16px;
     }
+
     .video-card p {
         font-size: 14px;
-        color:black;
+        color: black;
     }
 
+    .profile {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-left: 15px;
+        cursor: pointer;
+    }
